@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="シーンファイル">
+      <UniqueIdentifier>{112f7b00-c1cc-48c8-9470-a2b5f2892e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="アイテムファイル">
+      <UniqueIdentifier>{e05576fd-8b90-4876-b41c-788c54981373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="プレイヤーファイル">
+      <UniqueIdentifier>{ab5630d0-22ab-4562-8fec-6d38c330dbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敵ファイル">
+      <UniqueIdentifier>{ecc19c4d-803a-4347-82bb-ffc80aca3b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="その他ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="その他ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="プレイヤーファイル\プレイヤーソース">
+      <UniqueIdentifier>{36c4dd49-2139-4c1f-82f2-643372e244c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="プレイヤーファイル\プレイヤーソース\弾丸ソース">
+      <UniqueIdentifier>{5f0b7be1-4e41-4f41-97ea-9b7a9fad9083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敵ファイル\敵Red">
+      <UniqueIdentifier>{cda12817-b1f9-406c-96af-a7ebf73a06fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敵ファイル\敵ボス">
+      <UniqueIdentifier>{9624437e-4a24-4866-8b4b-3f272b30a992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敵ファイル\敵Red\敵Redソース">
+      <UniqueIdentifier>{697a45ca-d34d-4efd-a0ec-4198d63d057a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敵ファイル\敵Red\敵Redヘッダー">
+      <UniqueIdentifier>{6e83d2f9-1388-4f1a-9b26-3e99297e74a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敵ファイル\敵ボス\敵ボスソース">
+      <UniqueIdentifier>{93a346da-954e-4cd6-b294-6a537d64c553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敵ファイル\敵ボス\敵ボスヘッダー">
+      <UniqueIdentifier>{7686a2be-03b3-47f3-b188-e567c007e7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="プレイヤーファイル\プレイヤーヘッダー">
+      <UniqueIdentifier>{3fc4f3e1-f968-4095-803c-b4dafddc0714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="プレイヤーファイル\プレイヤーヘッダー\弾丸ヘッダー">
+      <UniqueIdentifier>{64d3b021-496a-44ea-9ce7-2cd70717a877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="アイテムファイル\回復アイテム">
+      <UniqueIdentifier>{3b7ad325-653f-4d7a-b867-4afc70dfd771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="アイテムファイル\レベルアップアイテム">
+      <UniqueIdentifier>{8600ab9f-9119-4cfa-b9e6-84b285ad1ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンファイル\ソース">
+      <UniqueIdentifier>{0690f67b-24ec-4a2b-92fc-7a3613e80513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンファイル\ヘッダー">
+      <UniqueIdentifier>{83bf0414-4f62-45ea-89eb-a261ce3d2fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンファイル\ヘッダー\ゲームシーンヘッダー">
+      <UniqueIdentifier>{82e678a0-e62a-48d3-9bd1-b420ed675319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーンファイル\ソース\ゲームシーンソース">
+      <UniqueIdentifier>{0750c4f8-b78c-449e-9102-19ebeececb02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\スクリーン">
+      <UniqueIdentifier>{78bf72f5-20aa-4b4e-a471-924e4e5404f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>その他ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>プレイヤーファイル\プレイヤーソース</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnim.cpp">
+      <Filter>プレイヤーファイル\プレイヤーソース</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRedBullet.cpp">
+      <Filter>敵ファイル\敵Red\敵Redソース</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBossBullet.cpp">
+      <Filter>敵ファイル\敵ボス\敵ボスソース</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRed.cpp">
+      <Filter>敵ファイル\敵Red\敵Redソース</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBoss.cpp">
+      <Filter>敵ファイル\敵ボス\敵ボスソース</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBossAnim.cpp">
+      <Filter>敵ファイル\敵ボス\敵ボスソース</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRedAnim.cpp">
+      <Filter>敵ファイル\敵Red\敵Redソース</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemHeal.cpp">
+      <Filter>アイテムファイル\回復アイテム</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemLevelUp.cpp">
+      <Filter>アイテムファイル\レベルアップアイテム</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>シーンファイル\ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>シーンファイル\ソース\ゲームシーンソース</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>シーンファイル\ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>シーンファイル\ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>リソース ファイル\スクリーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>その他ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateField.cpp">
+      <Filter>その他ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="picture.cpp">
+      <Filter>その他ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>プレイヤーファイル\プレイヤーソース\弾丸ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet1.cpp">
+      <Filter>プレイヤーファイル\プレイヤーソース\弾丸ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet2.cpp">
+      <Filter>プレイヤーファイル\プレイヤーソース\弾丸ソース</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>プレイヤーファイル\プレイヤーヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnim.h">
+      <Filter>プレイヤーファイル\プレイヤーヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBossBullet.h">
+      <Filter>敵ファイル\敵ボス\敵ボスヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRedAnim.h">
+      <Filter>敵ファイル\敵Red\敵Redヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBossAnim.h">
+      <Filter>敵ファイル\敵ボス\敵ボスヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBoss.h">
+      <Filter>敵ファイル\敵ボス\敵ボスヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRed.h">
+      <Filter>敵ファイル\敵Red\敵Redヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemHeal.h">
+      <Filter>アイテムファイル\回復アイテム</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemLevelUp.h">
+      <Filter>アイテムファイル\レベルアップアイテム</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>シーンファイル\ヘッダー\ゲームシーンヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>シーンファイル\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>シーンファイル\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>シーンファイル\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>リソース ファイル\スクリーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>その他ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateField.h">
+      <Filter>その他ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>その他ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="picture.h">
+      <Filter>その他ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="conioex.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>プレイヤーファイル\プレイヤーヘッダー\弾丸ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet1.h">
+      <Filter>プレイヤーファイル\プレイヤーヘッダー\弾丸ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet2.h">
+      <Filter>プレイヤーファイル\プレイヤーヘッダー\弾丸ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRedBullet.h">
+      <Filter>敵ファイル\敵Red\敵Redヘッダー</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
