@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="入力">
+      <UniqueIdentifier>{d2dd9e07-0742-4163-b220-6cf4355f9185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fanction">
+      <UniqueIdentifier>{8802df14-ff70-46c9-8bbc-e7583102dfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fanction\ソースファイル">
+      <UniqueIdentifier>{8231b73c-b3d2-4e93-a0ab-a296756dec16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fanction\ヘッダーファイル">
+      <UniqueIdentifier>{91cb152c-5b5a-41fe-8ada-2d0982e8a2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="メモ">
+      <UniqueIdentifier>{37b1f916-2f0a-4b82-9b39-033cbdaf5b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン">
+      <UniqueIdentifier>{c6c287e1-de98-48df-8d33-41adabd83d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Scene_Title">
+      <UniqueIdentifier>{3a9a8862-6c16-4341-a229-663d63359c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Scene_Title\ヘッダーファイル">
+      <UniqueIdentifier>{6c3d8881-cc4b-4d37-8a2c-2545a8bef47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Scene_Title\ソースファイル">
+      <UniqueIdentifier>{4831bdd8-326f-418e-b57c-81a1de5e1145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Scene_Game">
+      <UniqueIdentifier>{f7667d05-5def-49f4-9b9c-cacba4321dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Scene_Game\ソースファイル">
+      <UniqueIdentifier>{6a982816-c4bd-47b0-8acd-45ff5fcb4a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Scene_Game\ヘッダーファイル">
+      <UniqueIdentifier>{32ccc923-c422-4d5e-bfe8-c7ddbf789bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Scene_Result">
+      <UniqueIdentifier>{5c59351e-7b4d-4332-9807-b73f5ec17440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Scene_Result\ヘッダーファイル">
+      <UniqueIdentifier>{b6bdd5b4-80a6-4847-ba11-c77cb3bd3e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Scene_Result\ソースファイル">
+      <UniqueIdentifier>{ec92fbb8-e52c-4b6c-83c4-0d2368510cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="カメラ">
+      <UniqueIdentifier>{b5d22b2b-00c3-4652-8c45-0492b3fa36f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="カメラ\ヘッダーファイル">
+      <UniqueIdentifier>{fa54c69f-6538-4cce-83fd-c4386dc42501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="カメラ\ソースファイル">
+      <UniqueIdentifier>{a9bdf988-a28b-4c61-a80c-63332fdefda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="図形">
+      <UniqueIdentifier>{3c4673c7-a564-4e3a-906b-e162ba4e1128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="図形\ヘッダーファイル">
+      <UniqueIdentifier>{beda040c-70d0-43e1-9e3c-7ff18835a2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="図形\ソースファイル">
+      <UniqueIdentifier>{e37e68c0-5306-4c5e-80ef-8c9cc949e411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{b54dacd5-1953-462f-85ad-cea55cad8988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ヘッダーファイル">
+      <UniqueIdentifier>{e3de5010-19c2-4cbc-a72e-16c3348a52ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ソースファイル">
+      <UniqueIdentifier>{f2dca793-4b32-46da-865e-2310f0f8e64a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>入力</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>入力</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>fanction\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Game.cpp">
+      <Filter>シーン\Scene_Game\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Title.cpp">
+      <Filter>シーン\Scene_Title\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Title_BG.cpp">
+      <Filter>シーン\Scene_Title\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manager.cpp">
+      <Filter>シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Result.cpp">
+      <Filter>シーン\Scene_Result\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_BG.cpp">
+      <Filter>シーン\Scene_Result\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Main.cpp">
+      <Filter>シーン\Scene_Game\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>カメラ\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_move.cpp">
+      <Filter>カメラ\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_rotation.cpp">
+      <Filter>カメラ\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ball_shot.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="trail.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>図形\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="block_flag.cpp">
+      <Filter>図形\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>図形\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>図形\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>図形\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>図形\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>図形\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_follow.cpp">
+      <Filter>カメラ\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Manager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_score.cpp">
+      <Filter>UI\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_pause.cpp">
+      <Filter>UI\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_time.cpp">
+      <Filter>UI\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_resultTime.cpp">
+      <Filter>UI\ソースファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="debugPrintf.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>入力</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>入力</Filter>
+    </ClInclude>
+    <ClInclude Include="picture.h">
+      <Filter>fanction\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>fanction\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Game.h">
+      <Filter>シーン\Scene_Game\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Title.h">
+      <Filter>シーン\Scene_Title\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Title_BG.h">
+      <Filter>シーン\Scene_Title\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manager.h">
+      <Filter>シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Result.h">
+      <Filter>シーン\Scene_Result\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_BG.h">
+      <Filter>シーン\Scene_Result\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Main.h">
+      <Filter>シーン\Scene_Game\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>カメラ\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_move.h">
+      <Filter>カメラ\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_rotation.h">
+      <Filter>カメラ\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ball_shot.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="trail.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>図形\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="block_flag.h">
+      <Filter>図形\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ball.h">
+      <Filter>図形\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>図形\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>図形\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>図形\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MapParts.h">
+      <Filter>図形\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>図形\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_follow.h">
+      <Filter>カメラ\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Manager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_score.h">
+      <Filter>UI\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_pause.h">
+      <Filter>UI\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_time.h">
+      <Filter>UI\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_resultTime.h">
+      <Filter>UI\ヘッダーファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ゴルフコース.txt">
+      <Filter>メモ</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
